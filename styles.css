@@ -99,3 +99,38 @@ h1 {
     border: 4px solid #030303;
 }
 
+.nueva {
+  justify-content: flex-start;
+  display: flex; 
+  padding: 20px;    
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+.nueva img {
+  display: flex;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.h3 {
+  justify-content: space-between; 
+  border-radius: 16px;
+  padding: 20px
+}
+
+.p {
+  justify-content: space-between; 
+  position: absolute;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+#free-consult {
+  position: absolute;
+  padding: 14px 45px;
+  border-radius: 100px;
+  background-color: #eb7565;
+  color: #FFF7F0;
+}
