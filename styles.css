@@ -278,23 +278,23 @@ h4 {
 }
 
 .new-2 {
-  background-color: #030303;
-  color: #FFF7F0;
   border-radius: 10px;
   padding-block: 4rem;
   /* 74 */
   padding-inline: 4.625rem;
   text-align: left;
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 1.625rem;
 }
 
 .text-new {
+  background-color: #030303;
+  color: #FFF7F0;
   display: flex;
   flex-direction: column;
   gap: 1.625rem;
+  justify-content: flex-end;
 }
 
 .boton {
@@ -307,12 +307,11 @@ h4 {
   text-transform: capitalize;
   display: block;
   width: fit-content;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
   .new-2 {
-    background-color: #030303;
-    color: #FFF7F0;
     border-radius: 10px;
     padding-block: 4rem;
     /* 74 */
@@ -322,9 +321,12 @@ h4 {
     flex-direction: column;
     align-items: center;
     gap: 1.625rem;
+    padding: 40px;
   }
   
   .text-new {
+    background-color: #030303;
+    color: #FFF7F0;
     display: flex;
     flex-direction: column;
     gap: 1.625rem;
